@@ -1,0 +1,35 @@
+<%- include('partials/profile-header') %>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <i class="fas fa-key fa-6x"></i>
+    <h1 class="display-3">You're secrets</h1>
+
+    <% for (let i = 0; i < secret.length; i++) { %>
+    <div class="card text-white bg-secondary mb-3" style="max-width: 100rem">
+      <div
+        class="card-header d-flex flex-wrap align-items-center justify-content-between"
+      >
+        You
+        <form action="/profile" method="POST">
+          <a href=""
+            ><button class="delete-btn" type="submit" name="deleteBtn" value=<%= i %>>
+              <i class="fa-solid fa-trash-can"></i></button
+          ></a>
+        </form>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title"><%= secret[i] %></h5>
+      </div>
+    </div>
+    <%}%>
+
+    <hr />
+    <div class="card-body"></div>
+    <a class="btn btn-dark btn-lg" href="/submit" role="button"
+      >Submit a Secret</a
+    >
+  </div>
+</div>
+
+<%- include('partials/footer') %>

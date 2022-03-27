@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Secrets</title>
+    <script
+      src="https://kit.fontawesome.com/dbe365c79f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/headers.css" />
+    <link rel="stylesheet" href="css/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+<header class="p-3 mb-3 border-bottom">
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-center justify-content-between navbar-light">
+      <a href="/" class="navbar-brand d-flex align-items-center dark">
+          <path
+            d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
+          />
+          <circle cx="12" cy="13" r="4" />
+        </svg>
+        <strong>Secrets</strong>
+      </a>
+      
+      <!-- <ul
+        class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+      >
+        <li><a href="#" class="nav-link px-2 link-secondary">Secrets</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
+      </ul> -->
+
+      <!-- <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+        <input
+          type="search"
+          class="form-control"
+          placeholder="Search..."
+          aria-label="Search"
+        />
+      </form> -->
+      
+      <div class="dropdown text-end d-flex flex-wrap align-items-center ">
+        <h5 style="padding-right: 10px;"> <%= displayName %> </h5>
+        <a
+          href="#"
+          class="d-block link-dark text-decoration-none dropdown-toggle "
+          id="dropdownUser1"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <img
+            src=<%= picture %>
+            alt="mdo"
+            width="32"
+            height="32"
+            class="rounded-circle"
+          />
+        </a>
+        <ul class="dropdown-menu text-small " aria-labelledby="dropdownUser1">
+          <li><a class="dropdown-item" href="/profile">Profile</a></li>
+          <li><a class="dropdown-item" href="/secrets">secrets</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a class="dropdown-item" href="/logout">Sign out</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>

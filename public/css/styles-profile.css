@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+.div-1 {
+  background-color: #cbf1f5;
+  position: relative;
+  padding-top: 10%;
+  margin-bottom: 3%;
+}
+
+.h1-1 {
+  font-size: 600%;
+  font-weight: 700;
+  line-height: 2;
+}
+.h2-1 {
+  font-size: 2.5 rem;
+  font-weight: noraml;
+}
+p {
+  font-family: "Roboto Serif";
+  font-weight: noraml;
+  color: #40514e;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 8px;
+  border-color: rgba(128, 128, 128, 0.418);
+  height: 3px;
+  width: 5%;
+}
+
+h1 {
+  font-family: "Sacramento";
+  color: #66bfbf;
+}
+h2 {
+  font-family: "Montserrat", serif;
+  font-size: 25pt;
+  color: #66bfbf;
+}
+h3 {
+  font-family: "Montserrat", serif;
+  color: #11999e;
+}
+.myPic {
+  border-radius: 100%;
+  height: 130px;
+}
+.pc-pic {
+  width: 25%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 10%;
+}
+
+.cloud1 {
+  width: 18%;
+  position: absolute;
+  top: 5%;
+  right: 15%;
+}
+
+.cloud2 {
+  width: 18%;
+  position: absolute;
+  left: 15%;
+  top: 60%;
+}
+
+.chill-pic {
+  width: 25%;
+  margin-left: 10%;
+  float: right;
+}
+.hello-row {
+  margin-bottom: 100px;
+}
+
+.design-dev-row {
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+  line-height: 200%;
+}
+.hot-row {
+  text-align: left;
+}
+.hot-row {
+  text-align: left;
+  margin: 100px auto 100px;
+  width: 50%;
+  line-height: 200%;
+}
+.skills-row {
+  margin-top: 100px;
+}
+.contact-row {
+  margin-top: 100px;
+  word-spacing: 2;
+  line-height: 2;
+  width: 50%;
+  margin: 100px auto 100px;
+}
+.contact-button {
+  margin-top: 50px;
+  height: 50px;
+  width: 200px;
+  border: 0;
+  border-radius: 15px;
+  padding: 0 20px;
+  background-color: #38A3A5;
+  font-family:  "Montserrat", serif;
+  font-size: 1.2rem;
+  font-weight: noraml;
+  color: white;
+
+}
+.contact-button:hover {
+  background-color: #5acca2;
+}
+.contact-button:active {
+   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.bottom-div {
+  height: 200px;
+  background-color: #38A3A5;
+  line-height: 3;
+}
+
+.linkedin-a {
+  display: inline-block;
+}
+.twitter-a {
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+.website-a {
+  display: inline-block;
+}
+
+.about-p {
+  margin: 0;
+  color: white;
+  padding-bottom: 50px;
+}
+.linkedin-a, .twitter-a, .website-a {
+  text-decoration: none;
+  color: #11868a !important;
+}
+
+.linkedin-h3:hover, .twitter-h3:hover, .website-h3:hover {
+  color: white;
+}

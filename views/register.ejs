@@ -1,0 +1,64 @@
+<%- include('partials/pre-header') %>
+
+<body class="text-center"></body>
+
+<div class="container d-flex flex-column">
+  <a href="/" class="navbar-brand dark d-flex justify-content-center"
+    ><h1 style="color: #343a40">Secrets</h1></a
+  >
+  <main class="form-signin">
+    <form action="/register" method="POST">
+      <h1 class="h3 mb-3 fw-normal">sign up</h1>
+
+      <div class="form-floating">
+        <input
+          type="email"
+          class="form-control"
+          id="floatingInput"
+          placeholder="name@example.com"
+          name="username"
+        />
+        <label for="floatingInput">Email address</label>
+      </div>
+      <div class="form-floating">
+        <input
+          type="password"
+          class="form-control"
+          id="floatingPassword"
+          placeholder="Password"
+          name="password"
+        />
+        <label for="floatingPassword">Password</label>
+      </div>
+
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me" /> Remember me
+        </label>
+      </div>
+      <button class="w-100 btn btn-lg btn-dark" type="submit">Sign up</button>
+      <a href="/login" class="btn"> or login</a>
+      <hr />
+      <div class="card-body">
+        <a
+          class="btn btn-block btn-social btn-google"
+          href="/auth/google"
+          role="button"
+        >
+          <i class="fab fa-google"></i>
+          Sign Up with Google
+        </a>
+        <a
+          class="btn btn-block btn-social btn-facebook"
+          href="/auth/facebook"
+          role="button"
+        >
+          <i class="fab fa-facebook"></i>
+          Sign Up with facebook
+        </a>
+      </div>
+      <p class="mt-5 mb-3 text-muted">&copy; 2022 Jamal co Ltd</p>
+    </form>
+  </main>
+  <%- include('partials/footer') %>
+</div>

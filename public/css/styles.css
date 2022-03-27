@@ -1,0 +1,50 @@
+body {
+  background-color: #e8ecef;
+  
+}
+
+.centered {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  padding: 2%;
+}
+
+.submit-div {
+  border-radius: 10px;
+  background-color: #000;
+}
+
+.about-me {
+  padding: 1.5%;
+}
+
+.about-me button {
+  margin: 1%;
+  background: #e8ecef;
+  border: none;
+  text-decoration: none;
+  transition: 0.7s ease;
+}
+
+.about-me button:active {
+  color: #11868a;
+}
+.about-me button:hover {
+  color: #38a3a5;
+  transform: scale(1.1);
+}
+
+.delete-btn {
+  background-color: #687179;
+  color: #fff;
+  border: none;
+}
+.delete-btn:active {
+  border: none;
+}
